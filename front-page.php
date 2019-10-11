@@ -6,7 +6,7 @@ get_header();?>
 <div role="banner" id="banner">
     <div class="banner-text">
         <h1>Chris Sharrett</h1>
-        <h3> Web Designer & Wordpress Developer</h3>
+        <h2> Web Designer & Wordpress Developer</h2>
     </div>
 </div>
 
@@ -35,7 +35,7 @@ get_header();?>
         <div class="card">
             <div class="card-image">
                 <a href="<?php the_permalink(); ?>">
-                    <img src="<?php echo get_the_post_thumbnail_url(get_the_ID()); ?>" alt="Card Image">
+                    <img src="<?php echo get_the_post_thumbnail_url(get_the_ID()); ?>" alt="" role="presentation">
                 </a>
             </div>
 
@@ -45,7 +45,7 @@ get_header();?>
                 </a>
                 <p><?php echo wp_trim_words(get_the_excerpt(), 30); ?>
                 </p>
-                <a href="<?php the_permalink(); ?>" class="btn-readmore">Read more</a>
+                <a href="<?php the_permalink(); ?>" class="btn-readmore">Project Details</a>
             </div>
         </div>
 
@@ -78,7 +78,7 @@ get_header();?>
         <div class="card">
             <div class="card-image">
                 <a href="<?php the_permalink(); ?>">
-                    <img src="<?php echo get_the_post_thumbnail_url(get_the_ID()); ?>" alt="Card Image">
+                    <img src="<?php echo get_the_post_thumbnail_url(get_the_ID()); ?>" alt="" role="presentation">
                 </a>
             </div>
 
@@ -88,7 +88,7 @@ get_header();?>
                 </a>
                 <p><?php echo wp_trim_words(get_the_excerpt(), 30); ?>
                 </p>
-                <a href="<?php the_permalink(); ?>" class="btn-readmore">Read more</a>
+                <a href="<?php the_permalink(); ?>" class="btn-readmore">Project Details</a>
             </div>
         </div>
 

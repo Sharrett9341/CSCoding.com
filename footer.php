@@ -33,7 +33,7 @@
                     <ul>
                         <li>
                             <a href="#">
-                                <i class="fab fa-facebook"></i>
+                            <i class="fab fa-codepen"></i>
                             </a>
                         </li>
                         <li>

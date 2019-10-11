@@ -12,7 +12,7 @@
 
 <body>
     <header>
-    <a class="screen-reader-text skip-link" href="#maincontent"
+    <a class="screen-reader-text skip-link" href="#main-content"
      alt="<?php esc_html_e( 'Skip to content' ); ?>"><?php esc_html_e( 'Skip to content'); ?></a>
     </header>
 
@@ -69,7 +69,7 @@
             </li>
             <li>
                 <div id="search-icon">
-                    <i class="fas fa-search"></i>
+                    <i class="fas fa-search" role="button" aria-pressed="false"></i>
                 </div>
             </li>
         </ul>
